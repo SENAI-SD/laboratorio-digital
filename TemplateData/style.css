@@ -9,6 +9,6 @@ body { padding: 0; margin: 0 }
 #unity-footer { position: fixed; width: 100%; bottom: 0; margin-top: 5px; line-height: 38px; }
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
 #unity-fullscreen-button { cursor:pointer; float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
-#entervr:enabled { position: absolute; bottom: 0; float: left; width: 38px; height: 38px; background-color: #1eaed3; display: block; border: 0; margin: 10px 10px 10px 10px; }
-#entervr:disabled { position: absolute; bottom: 0; float: left; width: 38px; height: 38px; background-color: #dddddd; display: inline-block; border: 0; margin: 10px 10px 10px 10px; }
-.hidden { display: none !important; }
+#entervr:enabled { float: right; width: 38px; height: 38px; background-color: #1eaed3; display: inline-block; border: 0; margin: 0px 10px 8px 0px; }
+#entervr:disabled { float: right; width: 38px; height: 38px; background-color: #dddddd; display: inline-block; border: 0; margin: 0px 10px 8px 0px; }
+#unity-footer button.hidden { display: none; }
